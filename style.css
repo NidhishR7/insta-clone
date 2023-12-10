@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;900&family=Poppins:wght@200;500;800;900&family=Work+Sans:wght@300;400;500;600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+p{
+    font-family: 'Poppins';
+}
+.main{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.main img{
+height: 500px;
+margin-right: 90px;
+}
+form{
+    text-align: center;
+    border: 1px solid #DBDBDB;
+    padding-left: 60px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    border-radius: 4px;
+}
+.login img{
+    height: 120px;
+   margin-left: 12px;
+}
+.login form{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 32px;
+    width: 268px;
+    margin-top: 10px;
+    background-color: #fafafa;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+button{
+    height: 32px;
+    width: 268px;
+    margin-top: 25px;
+    background-color: #0084db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2.5px;
+}
+
+.or{
+    font-weight: 500;
+    margin-right: 55px;
+    margin-top: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.Facebook{
+    margin-right: 55px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #385185;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.forgot{
+    margin-right: 55px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.signup p{
+    margin-right: 10px;
+}
+
+.signup a{
+    text-decoration: none;
+    color: #0084db;
+    font-weight: 600;
+
+    
+}
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    .main img {
+        display: none;
+        /* Disable the main image for smaller devices */
+    }
+    .login img{
+        display: inline;
+        height: 70px;
+        margin-left: 80px;
+    }
+
+    form {
+        padding-left: 20px;
+        /* Adjust padding for smaller screens */
+        padding-right: 20px;
+        /* Adjust padding for smaller screens */
+    }
+    button{
+        margin-left: 14px;
+    }
+    input{
+        width: 100%;
+        /* Make input and button full-width for smaller screens */
+        margin-right: 0;
+        /* Remove margin-right for input and button */
+        margin-top: 15px;
+        /* Adjust margin-top for input and button */
+        margin-left: -6px;
+    }
+
+    .or,.Facebook,.forgot{
+        margin-left: 40px;
+    }
+
+   p{
+   
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.warning{
+    text-align: center;
+    color: red;
+}
